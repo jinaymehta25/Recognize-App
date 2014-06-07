@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/game_vertical_margin"
+    android:paddingLeft="@dimen/game_horizontal_margin"
+    android:paddingRight="@dimen/game_horizontal_margin"
+    android:paddingTop="@dimen/game_vertical_margin" >
+
+    <ImageView
+        android:id="@+id/main_image"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="#383641"
+        android:contentDescription="@string/desc"
+        android:paddingBottom="@dimen/game_padding"
+        android:paddingTop="@dimen/game_padding"
+        android:src="@drawable/prince_0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/frame_diff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/thumbs1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/layout_rounded_bg"
+                android:clickable="true"
+                android:contentDescription="@string/thumbdesc"
+                android:maxHeight="100dp"
+                android:src="@drawable/prince_0" />
+
+            <ImageView
+                android:id="@+id/thumbs2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/layout_rounded_bg"
+                android:clickable="true"
+                android:contentDescription="@string/thumbdesc"
+                android:maxHeight="100dp"
+                android:src="@drawable/prince_0" />
+
+            <ImageView
+                android:id="@+id/thumbs3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/layout_rounded_bg"
+                android:clickable="true"
+                android:contentDescription="@string/thumbdesc"
+                android:maxHeight="100dp"
+                android:src="@drawable/prince_0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:weightSum="3"
+        	android:layout_marginTop="@dimen/inter_options_diff">
+
+            <ImageView
+                android:id="@+id/thumbs4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/layout_rounded_bg"
+                android:clickable="true"
+                android:contentDescription="@string/thumbdesc"
+                android:maxHeight="100dp"
+                android:src="@drawable/prince_0" />
+
+            <ImageView
+                android:id="@+id/thumbs5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/layout_rounded_bg"
+                android:clickable="true"
+                android:contentDescription="@string/thumbdesc"
+                android:maxHeight="100dp"
+                android:src="@drawable/prince_0" />
+
+            <ImageView
+                android:id="@+id/thumbs6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/layout_rounded_bg"
+                android:clickable="true"
+                android:contentDescription="@string/thumbdesc"
+                android:maxHeight="100dp"
+                android:src="@drawable/prince_0" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

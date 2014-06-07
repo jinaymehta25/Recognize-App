@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    tools:context=".AlbumsActivity" 
+    android:background="#383641">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:textAlignment="textStart"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="#F5E6C0"
+        android:text="@string/albumchooser"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <GridView
+        android:id="@+id/grid_layout" 
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+    	android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    	android:layout_marginRight="@dimen/activity_horizontal_margin"
+    	android:layout_marginTop="40dp"
+    	android:verticalSpacing="20dp"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:numColumns="auto_fit"
+    	android:listSelector="@android:color/transparent">
+        
+    </GridView>
+
+    <ImageView
+        android:id="@+id/icon_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/icon_back" 
+        android:contentDescription="@string/back_button_desc"/>
+    
+</RelativeLayout>

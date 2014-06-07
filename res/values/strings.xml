@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Recongnize</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="desc">Image for the Game</string>
+    <string name="title_activity_start__game">Start_Game</string>
+    <string name="title_activity_start_game">StartGameActivity</string>
+    <string name="launch_button_text">PLAY</string>
+    <string name="title_activity_theme">ThemeActivity</string>
+    <string name="facebook_button">FACEBOOK</string>
+    <string name="theme_title">SELECT THEME</string>
+    <string name="start_game">START</string>
+    <string name="theme_display_image">Image that represents category</string>
+    <string name="title_activity_theme_controller">ThemeControllerActivity</string>
+    <string name="title_activity_transition_score">TransitionScoreActivity</string>
+    <string name="thumbdesc">Options of the game</string>
+    <string name="transit_score_title">YOU SCORED</string>
+    <string name="title_activity_game_manager">GameManagerActivity</string>
+    <string name="theme_options">Options Image</string>
+    <string name="theme_albums">Albums Image</string>
+    <string name="title_activity_albums">AlbumsActivity</string>
+    <string name="albumchooser">Choose a Library</string>
+    <string name="back_button_desc">Back Button Description</string>
+    <string name="transit_highscore">HIGH SCORE</string>
+    <string name="view_leaderboard">VIEW LEADERBOARD</string>
+    <string name="pedagog_title">Did you know?</string>
+    <string name="pedagog_desc">Ibusdae Quibus Dolenet Ommolorese.Doluptatium Eumenih Illenim Usapica TemperoEatur, To Miliquam Que Comnis Explit Verruptatem. Nequia Cuptatusciis Suntio. Hitium Que Doluptae Et Lam, Voluptibus Ideris Dis Essumquias Duntiae Rspiet Re Lam Fugitature</string>    
+
+</resources>

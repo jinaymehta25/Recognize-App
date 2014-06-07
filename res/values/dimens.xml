@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	<dimen name="game_vertical_margin">12dp</dimen>
+	<dimen name="game_horizontal_margin">12dp</dimen>
+	<dimen name="game_padding">12dp</dimen>
+	<dimen name="frame_diff">15dp</dimen>
+	<dimen name="inter_options_diff">6dp</dimen>
+	<dimen name="inter_progres_margin">3dp</dimen>
+	<dimen name="game_option_padding">5dp</dimen>
+</resources>

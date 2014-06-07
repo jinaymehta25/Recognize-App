@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.istudy"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_sherlock"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" android:requiredForAllUsers="true">
+        <activity
+            android:name="com.istudy.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.istudy.activity.Start_Game"
+            android:label="@string/title_activity_start__game"
+            android:parentActivityName="com.istudy.activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.istudy.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.istudy.activity.StartGameActivity"
+            android:label="@string/title_activity_start_game" >
+        </activity>
+        <activity
+            android:name="com.istudy.activity.ThemeActivity"
+            android:label="@string/title_activity_theme" >
+        </activity>
+        <activity
+            android:name="com.istudy.activity.ThemeControllerActivity"
+            android:label="@string/title_activity_theme_controller" >
+        </activity>
+        <activity
+            android:name="com.istudy.activity.ScoreActivity"
+            android:label="@string/title_activity_transition_score" >
+        </activity>
+        <activity
+            android:name="com.istudy.activity.GameManagerActivity"
+            android:label="@string/title_activity_game_manager" >
+        </activity>
+        <activity
+            android:name="com.istudy.activity.AlbumsActivity"
+            android:label="@string/title_activity_albums" >
+        </activity>
+    </application>
+
+</manifest>
